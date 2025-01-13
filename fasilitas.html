@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fasilitas Kampus</title>
+    <style>
+        body {
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin: 0;
+            padding: 0;
+            
+        }
+
+        /* Header/Navbar */
+.header {
+    padding: 10px 0;
+    color: white;
+}
+
+.nav-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-navbar img {
+    height: 50px;
+}
+
+.ul-nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.ul-nav li {
+    margin: 0 10px;
+}
+
+.ul-nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.ul-nav a:hover {
+    color: forestgreen;
+}
+
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 2rem auto;
+            max-width: 1200px;
+            gap: 20px;
+        }
+
+        .facility-card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 300px;
+            text-align: center;
+        }
+
+        .facility-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .facility-card .content {
+            padding: 1rem;
+        }
+
+        .facility-card h3 {
+            margin: 0;
+            font-size: 1.5rem;
+            color: #333;
+        }
+
+        .facility-card p {
+            margin: 0.5rem 0 0;
+            color: #666;
+        }
+
+        .facility-card a {
+            text-decoration: none;
+            color: #0056b3;
+            font-weight: bold;
+            display: block;
+            margin-top: 1rem;
+        }
+
+        /* footer */
+.footer {
+    background-color: #333;
+    color: white;
+    margin-top: 100px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-icon {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.footer-text {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #bbb;
+}
+
+/* Hover Effects */
+.footer-link:hover .footer-icon {
+    filter: brightness(1.2);
+}
+
+.footer-link:hover span {
+    color: #ddd;
+}
+    </style>
+</head>
+<body>
+    <!-- header-Navbar Start -->
+    <div class="header">
+        <nav class="nav-navbar">
+            <img src="image/Logo.png">
+            <ul class="ul-nav">
+               <li><a href="index.html">home</a></li> 
+               <li><a href="Tentang.html">tentang kampus</a></li> 
+               <li><a href="contact.html">contact</a></li> 
+               <li><a href="Alumni.html">alumni</a></li>
+               <li><a href="fasilitas.html">fasilitas</a></li> 
+            </ul>
+        </nav>
+</div>
+<!--header Navbar End-->
+
+    <div class="container">
+        <div class="facility-card">
+            <img src="image/masjid.jpeg" alt="Masjid">
+                <div class="content">
+                    <h3>Mesjid</h3>
+                    <p>Tempat ibadah bagi mahasiswa dan staf kampus.</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="facility-card">
+            <img src="image/perpustakaan.jpeg" alt="Perpustakaan">
+                <div class="content">
+                    <h3>Perpustakaan</h3>
+                    <p>Fasilitas membaca dan koleksi buku yang lengkap.</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="facility-card">
+            <img src="image/Kantin.jpg" alt="Kantin">
+                <div class="content">
+                    <h3>Kantin</h3>
+                    <p>Tempat makan dengan berbagai pilihan menu.</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="facility-card">
+            <img src="image/lapangvolly.jpeg" alt="Lapang Olahraga">
+                <div class="content">
+                    <h3>Lapang Olahraga</h3>
+                    <p>Fasilitas olahraga untuk mendukung aktivitas fisik.</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="facility-card">
+            <img src="image/lab kom.jpg" alt="Lab Komputer">
+                <div class="content">
+                    <h3>Lab Komputer</h3>
+                    <p>Fasilitas untuk praktikum dan penelitian.</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="facility-card">
+            <img src="image/ruang kelas.jpeg" alt="Ruang Kelas">
+                <div class="content">
+                    <h3>Ruang Kelas</h3>
+                    <p>Ruang belajar yang nyaman dan kondusif.</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="facility-card">
+            <img src="image/gedung.jpg" alt="Gedung">
+                <div class="content">
+                    <h3>Gedung</h3>
+                    <p>Struktur utama kampus dengan berbagai fasilitas.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Instagram Logo -->
+            <a href="https://www.instagram.com/sttcipasung_official/" target="_blank" class="footer-link">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" class="footer-icon">
+            </a>
+
+            <!-- Email -->
+            <a href="mailto:youremail@example.com" class="footer-link">
+                <img src="/image/112-gmail_email_mail-512.webp" alt="Email" class="footer-icon">
+                <span>sttcipasung_official.com</span>
+            </a>
+        </div>
+        <p class="footer-text">© 2025 kelompok 8. All Rights Reserved.</p>
+    </footer>       
+</body>
+</html>
